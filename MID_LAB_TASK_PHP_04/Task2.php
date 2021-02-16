@@ -1,12 +1,9 @@
 <?php
-     
-     $vat=15;
-     $price=58;
-
-     $divisor= $vat/100;
-
-     $amount=$price*$divisor;
-
-     echo "$amount";
-
+   
+     function Vat($amount)
+     {
+     	$v=$amount*0.15;
+     	echo "$v";
+     }
+     Vat(230);
 ?>     
