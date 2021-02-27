@@ -1,3 +1,9 @@
+<?php
+     session_start();
+     if (isset(
+     	$_SESSION['flag'])) {
+     
+?>     
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +14,7 @@
 		<tr align="center">
 			<td colspan="3" width="50%" height="50%" align="right">
 				<img src="logo.png" width="100px" height="50" align="left">
-				<a href="home.html">Home |</a>
+				<a href="home.php">Home |</a>
 				<a href="login.html">Login |</a>
 				<a href="reg.html">Registration</a>
 				
@@ -30,3 +36,8 @@
 
 </body>
 </html>
+<?php
+	    }else{
+		header('location: login.html');
+	}
+?>

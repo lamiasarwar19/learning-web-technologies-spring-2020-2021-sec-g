@@ -8,7 +8,7 @@
 ?>
 <html>
 <head>
-	<title>Profile Picture</title>
+	<title>Change Password</title>
 </head>
 <body>
 	<table border="1" width="80%" align="center">
@@ -38,7 +38,7 @@
           </table> 
           <form>
          <fieldset>
-         <legend>Change Password</legend>
+         <legend>CHANGE PASSWORD</legend>
          <table align="center" height="200px">
           <tr>
             <td>Current Password</td>

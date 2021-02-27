@@ -38,7 +38,7 @@
           </table> 
           <form>
          <fieldset>
-         <legend>Profile Picture</legend>
+         <legend>PROFILE PICTURE</legend>
          <table align="center" height="200px">
           <tr>
             <img src="user.png" width="80px" height="80px"></tr>

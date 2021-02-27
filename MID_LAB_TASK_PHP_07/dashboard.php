@@ -7,14 +7,14 @@
 
      }else
      {
-     	header('location:home.html');
+     	header('location:home.php');
      }
 ?>
 
 
 <html>
 <head>
-	<title>Dashboard</title>
+	<title>DASHBOARD</title>
 </head>
 <body>
 	<table border="1" width="80%" align="center">
@@ -44,7 +44,7 @@
             	
             	
             <tr align="center">
-            <td colspan="3" height="50px">Copyright 2017
+            <td colspan="3" height="50px">Copyright@2017
             </td>
             </tr>   	
 

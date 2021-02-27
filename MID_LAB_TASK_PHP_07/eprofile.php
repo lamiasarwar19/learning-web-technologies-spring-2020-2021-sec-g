@@ -3,7 +3,7 @@
      session_start();
      if(isset($_SESSION['flag']))
      {
-     	$user= $_SESSION['current_user']['username'];
+     	$username= $_SESSION['current_user']['username'];
 
      }else
      {
@@ -42,7 +42,7 @@
           </table> 
           <form>
          <fieldset>
-         <legend>Edit Profile</legend>
+         <legend>EDIT PROFILE</legend>
          <table align="center" height="200px">
           <tr>
             <td>Name</td>           

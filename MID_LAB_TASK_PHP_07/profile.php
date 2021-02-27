@@ -39,7 +39,7 @@
             <table>
             <td align="center">
             	<fieldset>
-            		<legend>Profile</legend>
+            		<legend>PROFILE</legend>
             		<table>
             			<tr>
             				<td>Name</td>
@@ -65,7 +65,7 @@
             </table>	
             <table>
             <tr align="center">
-            <td colspan="3" height="50px">Copyright 2017
+            <td colspan="3" height="50px">Copyright@2017
             </td>
             </tr>   	
 
@@ -76,6 +76,6 @@
      }
      else
      {
-     	header('location:home.html');
+     	header('location:home.php');
      }
 ?>     
